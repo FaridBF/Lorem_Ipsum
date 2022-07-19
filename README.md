@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Lorem Ipsum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Création d'une application [React](https://fr.reactjs.org/) - Projet Front-End**
 
-## Available Scripts
+<br>Exercice réalisé dans le cadre du [Bootcamp "Le Reacteur"](https://www.lereacteur.io/)</br>
 
-In the project directory, you can run:
+**Objectifs** :
 
-### `npm start`
+- Initialiser un projet [React](https://fr.reactjs.org/) (via npx create-react-app my-app)
+- Créez un projet [React](https://fr.reactjs.org/) (via create-react-app)
+- Nettoyer le projet initial (src/App.css, src/index.css,src/logo.svg, src/App.js, src/App.test.js, src/setupTest.js, src/reportWebVitals.js)
+- Créer un composant
+- Transmettre des props (Title ayant pour props name - Description ayant pour props text)
+- Appliquer un style (via className)
+- Savoir utiliser le [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- Respecter la maquette initiale fournie via l'outil [Figma](https://www.figma.com/fr/).
+- Respecter l'arbre de composants à créer (App, Content, Title, Description)
+- Push son projet React sur [Github](https://github.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Les différentes étapes à suivre concernant la bonne réalisation de cet exercice** :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Etape 1**
+- Dans App.js, sans faire de composants pour le moment, réalisez la partie Étape 1 de la maquette
+- **Etape 2**
+- Réalisez la partie Étape 2 de la maquette.
+- Remarquez qu'il s'agit en fait du même composant, seuls le titre et le contenu changent
+- **Notes**
+- Le premier cadre gris représente un composant Content.
+- Le deuxième cadre gris représente également le même composant Content.
+- Le composant Content contiendra les composants Title et Description.
+- Afin que les 2 composants affichent des informations différentes, vous devrez transmettre des props.
 
-### `npm test`
+**Vous pouvez retrouver la [maquette proposée](https://www.figma.com/file/Abb4Zi4bzNBiXGxxApRbfz/Lorem-Ipsum?node-id=0%3A1)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src = "src/assets/lorem.png" title = "Maquette Lorem Ipsum" alt = "Maquette Lorem Ipsum">
+<hr/>
